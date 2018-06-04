@@ -1,10 +1,10 @@
-
+var katzDeli = [];
 
 function takeANumber(katzDeliLine, name) {
   
   katzDeliLine = [];
   
-  katzDeliLine.unshift(name);
+  katzDeliLine.push(name);
   
   var position = katzDeliLine.length;
   
