@@ -1,12 +1,12 @@
 
 
-var katzDeli = [];
+var katzDeliLine = [];
 
 function takeANumber(katzDeliLine, name) {
   
   katzDeliLine = [];
   
-  katzDeliLine.push('ada');
+  katzDeliLine.push(name);
   
   console.log(katzDeliLine);
   
